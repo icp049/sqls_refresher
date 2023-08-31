@@ -1,4 +1,4 @@
-asasSELECT actor_id, director_id
+asasasSELECT actor_id, director_id
 FROM ActorDirector
 GROUP BY actor_id,director_id
 HAVING COUNT(*) >= 3;
